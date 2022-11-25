@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+th {
+  background-color: blue;
+  color: white;
+  font-weight: normal;
+}
+th,td{
+  border:1px solid gray;
+  min-width: 250px;
+}
+thead tr:nth-child(1) {
+  background-color: aqua;
+}
+tbody tr:nth-child(even) {
+  background-color: red;
+}
+tbody tr:nth-child(odd) {
+  background-color: green;
+}
+.oszevont{
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 500px) {
+  article {
+    overflow-x: scroll;
+  }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vörös Doma táblázat</title>
+  </head>
+  <body>
+    <header>
+      <h1>Táblázatok</h1>
+    </header>
+    <nav>
+        <ul>
+        <li><a href="index.html">kezdölap</a></li>
+        <li><a href="sakk.html">sakk</a></li>
+        <li><a href="tablazat1.html">tablazat</a></li>
+        </ul>
+    </nav>
+    <article>
+      <table>
+        <thead>
+          <tr>
+            <th>cella 1</th>
+            <th>cella 2</th>
+            <th>cella 3</th>
+            <th>cella 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>2 sor cella 1</th>
+            <td>2 sor cella 2</td>
+            <td>2 sor cella 3</td>
+            <td>2 sor cella 4</td>
+          </tr>
+          <tr>
+            <th>3 sor cella 1</th>
+            <td>3 sor cella 2</td>
+            <td colspan=2 class="oszevont">3 sor cella 3</td>
+            
+          </tr>
+          <tr>
+            <th>4 sor cella 1</th>
+            <td>4 sor cella 2</td>
+            <td>4 sor cella 3</td>
+            <td rowspan=2 class="oszevont">4 sor cella 4</td>
+          </tr>
+          <tr>
+            <th>5 sor cella 1</th>
+            <td>5 sor cella 2</td>
+            <td>5 sor cella 3</td>
+            
+          </tr>
+          <tr>
+            <th>6 sor cella 1</th>
+            <td>6 sor cella 2</td>
+            <td>6 sor cella 3</td>
+            <td>6 sor cella 4</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </body>
+</html>
